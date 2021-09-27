@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+body{
+
+	background: white;
+}
+
+form{
+
+	margin: 0 auto;
+	background: #0000a0;
+	width: 500px;
+	margin-top: 250px;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+
+
+.campos{
+
+	margin-top: 10px;
+	margin-left: 60px;
+	
+}
+
+#botones{
+
+	margin-top: 20px;
+	margin-left: 210px;
+	
+}
+
+form label{
+	float: left;
+	width: 150px;
+	color: whitesmoke;
+
+}
+
+form input{
+	width: 200px;
+}
+
+form textarea{
+	width: 200px;
+	height: 100px;
+
+}
+
+form input[type="submit"], form input[type="reset"]{
+	width: 100px;
+	background-color: palevioletred;
+	border-color: palevioletred;
+	color: whitesmoke;
+	cursor: pointer;
+
+}
+
+
